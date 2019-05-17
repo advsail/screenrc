@@ -1,0 +1,22 @@
+# Showing the screen tabs
+caption always "%{= kw}%-w%{= gW}%n %t%{-}%+w %-= custom-screen - %Y-%m-%d %C:%s"
+
+# Bind hot keys for selecting the screens
+# Screen 1 - 7 maps to F1 to F7
+bindkey "^[OP" select 1
+bindkey "^[OQ" select 2
+bindkey "^[OR" select 3
+bindkey "^[OS" select 4
+bindkey "^[[15~" select 5
+bindkey "^[[17~" select 6
+bindkey "^[[18~" select 7
+#bindkey "^[[19~" select 8
+#bindkey "^[[20~" select 9
+#bindkey "^[[21~" select 10
+#bindkey "^[[23~" select 11
+#bindkey "^[[24~" select 12
+
+# Disable the flashing bell
+vbell on
+vbell_msg ''
+termcapinfo *  vb=:
