@@ -22,3 +22,6 @@ vbell_msg ''
 termcapinfo *  vb=:
 
 altscreen on
+
+# Let screen use xterm instead of screen
+term xterm
