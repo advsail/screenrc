@@ -1,5 +1,5 @@
 # Showing the screen tabs
-caption always "%{= kw}%-w%{= gW}%n %t%{-}%+w %-= custom-screen - %Y-%m-%d %C:%s"
+caption always "%{= kw}%-w%{= gW}%n %t%{-}%+w %-= %Y-%m-%d %C:%s"
 
 # Bind hot keys for selecting the screens
 # Screen 1 - 7 maps to F1 to F7
@@ -20,3 +20,5 @@ bindkey "^[[18~" select 7
 vbell on
 vbell_msg ''
 termcapinfo *  vb=:
+
+altscreen on
