@@ -27,5 +27,5 @@ altscreen on
 term xterm
 
 # Enable mouse scrolling and scroll bar history scrolling
-termcapinfo xterm* ti@:te@
-scrollback 5000
+# termcapinfo xterm* ti@:te@
+# scrollback 5000
