@@ -10,7 +10,7 @@ bindkey "^[OS" select 4
 bindkey "^[[15~" select 5
 bindkey "^[[17~" select 6
 bindkey "^[[18~" select 7
-#bindkey "^[[19~" select 8
+bindkey "^[[19~" select 8
 #bindkey "^[[20~" select 9
 #bindkey "^[[21~" select 10
 #bindkey "^[[23~" select 11
